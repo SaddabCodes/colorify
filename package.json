@@ -1,0 +1,26 @@
+{
+  "name": "1colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify our console",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaddabCodes/colorify"
+  },
+  "keywords": [
+    "console log colors"
+  ],
+  "author": "Saddab Akhtar",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
